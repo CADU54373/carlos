@@ -1,3 +1,4 @@
+
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -54,33 +55,6 @@ const Projects = () => {
       description: 'Portfólio moderno e interativo desenvolvido com React, TypeScript e animações GSAP built with Spline.',
       image: '/lovable-uploads/2da575b5-d8ec-470b-b44e-669c03646b71.png',
       tags: ['React', 'TypeScript', 'GSAP'],
-      liveUrl: '#',
-      githubUrl: '#'
-    },
-    {
-      id: 4,
-      title: 'E-commerce Platform',
-      description: 'Solução completa de e-commerce com painel administrativo e múltiplas formas de pagamento.',
-      image: '/lovable-uploads/fce13963-48f8-4661-ae0e-e0bdc272b0a8.png',
-      tags: ['Next.js', 'PostgreSQL', 'Tailwind'],
-      liveUrl: '#',
-      githubUrl: '#'
-    },
-    {
-      id: 5,
-      title: 'Dashboard Analytics',
-      description: 'Interface intuitiva para visualização de dados com gráficos interativos e relatórios.',
-      image: '/lovable-uploads/e6b5afd9-6400-426d-84de-176b77d1b470.png',
-      tags: ['Vue.js', 'D3.js', 'Express'],
-      liveUrl: '#',
-      githubUrl: '#'
-    },
-    {
-      id: 6,
-      title: 'Social Media App',
-      description: 'Rede social com funcionalidades de chat em tempo real e compartilhamento de mídia.',
-      image: '/lovable-uploads/eacf245c-893d-40d9-9de2-6cd5098b3ded.png',
-      tags: ['React', 'Socket.io', 'AWS'],
       liveUrl: '#',
       githubUrl: '#'
     }
