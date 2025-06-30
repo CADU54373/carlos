@@ -40,7 +40,7 @@ const Projects = () => {
     {
       id: 2,
       title: 'Portfólio Pessoal',
-      description: 'Portfólio moderno e interativo desenvolvido com React, TypeScript e animações GSAP.',
+      description: 'Portfólio moderno e interativo desenvolvido com HTML, CSS e TypeScript.',
       image: '/lovable-uploads/eacf245c-893d-40d9-9de2-6cd5098b3ded.png',
       tags: ['HTML', 'CSS']
     },
