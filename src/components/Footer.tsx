@@ -1,3 +1,4 @@
+
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -34,7 +35,7 @@ const Footer = () => {
           <div className="text-center md:text-left">
             <h3 className="text-2xl font-bold text-white mb-2">
               <span className="bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
-                Milad Code
+                Carlos Eduardo
               </span>
             </h3>
             <p className="text-gray-400">
@@ -93,7 +94,7 @@ const Footer = () => {
         
         <div className="mt-8 pt-8 border-t border-gray-800/50 text-center">
           <p className="text-gray-500">
-            © 2024 Milad Code. Todos os direitos reservados. Feito com ❤️ e muito ☕
+            © 2024 Carlos Eduardo. Todos os direitos reservados. Feito com ❤️ e muito ☕
           </p>
         </div>
       </div>

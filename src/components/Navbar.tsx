@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from 'react';
 import { gsap } from 'gsap';
 import { List, X } from 'phosphor-react';
@@ -36,7 +37,7 @@ const Navbar = () => {
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="text-2xl font-bold text-white">
             <span className="bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
-              MC
+              CE
             </span>
           </div>
           

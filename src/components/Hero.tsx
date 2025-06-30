@@ -1,3 +1,4 @@
+
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 
@@ -51,6 +52,13 @@ const Hero = () => {
     }
   }, []);
 
+  const scrollToAbout = () => {
+    const aboutSection = document.getElementById('about');
+    if (aboutSection) {
+      aboutSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section
       id="home"
@@ -84,11 +92,11 @@ const Hero = () => {
           <h1 className="text-4xl md:text-7xl font-bold text-white leading-tight">
             Olá, eu sou{' '}
             <span className="bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
-              Milad
+              Carlos Eduardo
             </span>
           </h1>
           <h2 className="text-2xl md:text-4xl font-light text-gray-300 mt-2">
-            Desenvolvedor Web
+            Desenvolvedor
           </h2>
         </div>
 
@@ -101,9 +109,10 @@ const Hero = () => {
 
         <button
           ref={ctaRef}
+          onClick={scrollToAbout}
           className="bg-gradient-to-r from-cyan-500 to-purple-500 text-white px-8 py-4 rounded-full font-semibold text-lg shadow-2xl shadow-cyan-500/25 hover:shadow-cyan-500/50 transition-all duration-300"
         >
-          Contratar
+          Sobre mim
         </button>
       </div>
     </section>

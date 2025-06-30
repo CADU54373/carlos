@@ -1,3 +1,4 @@
+
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 
@@ -47,10 +48,10 @@ const Preloader = () => {
           className="text-6xl font-bold text-white mb-8 relative"
         >
           <span className="bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
-            Milad
+            Carlos Eduardo
           </span>
           <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent blur-sm opacity-50">
-            Milad
+            Carlos Eduardo
           </div>
         </div>
         

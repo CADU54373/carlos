@@ -1,7 +1,8 @@
+
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { Code, Palette, Rocket, Lightbulb } from 'phosphor-react';
+import { Code, Database, Robot, TrendUp } from 'phosphor-react';
 
 const About = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -72,10 +73,10 @@ const About = () => {
   }, []);
 
   const skills = [
-    { icon: Code, name: 'Frontend', color: 'from-blue-400 to-cyan-400' },
-    { icon: Palette, name: 'Design', color: 'from-purple-400 to-pink-400' },
-    { icon: Rocket, name: 'Performance', color: 'from-green-400 to-teal-400' },
-    { icon: Lightbulb, name: 'Inovação', color: 'from-yellow-400 to-orange-400' },
+    { icon: Code, name: 'Python & Java', color: 'from-blue-400 to-cyan-400' },
+    { icon: Database, name: 'Banco de Dados', color: 'from-purple-400 to-pink-400' },
+    { icon: Robot, name: 'Power Platform', color: 'from-green-400 to-teal-400' },
+    { icon: TrendUp, name: 'Power BI', color: 'from-yellow-400 to-orange-400' },
   ];
 
   return (
@@ -93,7 +94,7 @@ const About = () => {
               <div className="w-80 h-80 rounded-full overflow-hidden border-4 border-cyan-400/30 shadow-2xl shadow-cyan-400/20 hover:shadow-cyan-400/40 transition-all duration-500 hover:scale-105 hover:rotate-3">
                 <img
                   src="/lovable-uploads/178cf8d5-5f7e-4370-a099-f33e0f311ea5.png"
-                  alt="Milad"
+                  alt="Carlos Eduardo"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -112,14 +113,18 @@ const About = () => {
             
             <div className="space-y-4 text-gray-300 text-lg leading-relaxed">
               <p>
-                Olá! Eu sou Milad, um desenvolvedor frontend apaixonado com expertise em tecnologias web modernas. 
-                Eu me especializo em criar aplicações web bonitas, responsivas e de alta performance que entregam 
-                experiências excepcionais ao usuário.
+                Olá! Meu nome é Carlos Eduardo, tenho 21 anos e sou estudante de Ciência da Computação. 
+                Tenho paixão por tecnologia e estou sempre buscando aprender e evoluir como desenvolvedor.
               </p>
               
               <p>
-                Com um olhar apurado para design e um profundo entendimento do comportamento do usuário, eu transformo ideias em 
-                realidades digitais que não apenas parecem impressionantes, mas também funcionam perfeitamente em todos os dispositivos e plataformas.
+                Ao longo da minha jornada, desenvolvi habilidades sólidas em Python, Java, Banco de Dados e plataformas 
+                low-code como Power Apps e Power Automate, além de conhecimentos em análise de dados com Power BI.
+              </p>
+
+              <p>
+                Gosto de resolver problemas com código, automatizar processos e transformar ideias em soluções funcionais. 
+                Estou aberto a novas oportunidades e desafios que me permitam crescer profissionalmente e contribuir com projetos inovadores.
               </p>
             </div>
 
