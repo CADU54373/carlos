@@ -43,9 +43,9 @@ const Projects = () => {
     {
       id: 2,
       title: 'Portfólio Pessoal',
-      description: 'Portfólio moderno e interativo desenvolvido com React, TypeScript e animações GSAP.',
+      description: 'Portfólio moderno e interativo desenvolvido com HTML, TypeScript e animações CSS.',
       image: '/lovable-uploads/e5630019-88af-478c-9a4d-2165ae4351aa.png',
-      tags: ['React', 'TypeScript', 'GSAP'],
+      tags: ['HTML', 'TypeScript', 'CSS'],
       liveUrl: '#',
       githubUrl: '#'
     },
