@@ -53,7 +53,6 @@ const Projects = () => {
       id: 3,
       title: 'Dashboard Power BI',
       description: 'Dashboard interativo para análise de dados com visualizações avançadas e métricas de performance.',
-      image: '/lovable-uploads/817cfd1e-98c1-4c98-bf0b-da666774604b.png',
       tags: ['Power BI', 'DAX', 'SQL'],
       liveUrl: '#',
       githubUrl: '#'
