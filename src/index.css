@@ -9,43 +9,43 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 222 84% 4.9%;
+    --background: 222 84% 2%;
     --foreground: 210 40% 98%;
 
-    --card: 222 84% 4.9%;
+    --card: 222 84% 2%;
     --card-foreground: 210 40% 98%;
 
-    --popover: 222 84% 4.9%;
+    --popover: 222 84% 2%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 222.2 47.4% 11.2%;
+    --primary: 222.2 47.4% 8%;
     --primary-foreground: 210 40% 98%;
 
-    --secondary: 217.2 32.6% 17.5%;
+    --secondary: 217.2 32.6% 12%;
     --secondary-foreground: 210 40% 98%;
 
-    --muted: 217.2 32.6% 17.5%;
+    --muted: 217.2 32.6% 12%;
     --muted-foreground: 215 20.2% 65.1%;
 
-    --accent: 217.2 32.6% 17.5%;
+    --accent: 217.2 32.6% 12%;
     --accent-foreground: 210 40% 98%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
+    --border: 217.2 32.6% 12%;
+    --input: 217.2 32.6% 12%;
     --ring: 212.7 26.8% 83.9%;
 
     --radius: 0.5rem;
 
-    --sidebar-background: 240 5.9% 10%;
+    --sidebar-background: 240 5.9% 5%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent: 240 3.7% 10%;
     --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-border: 240 3.7% 10%;
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 }
@@ -56,7 +56,7 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-gradient-to-br from-gray-900 via-purple-900 to-violet-900;
+    @apply bg-gradient-to-br from-gray-950 via-purple-950 to-violet-950;
     @apply text-foreground;
     font-family: 'Inter', sans-serif;
     overflow-x: hidden;
@@ -73,7 +73,7 @@ All colors MUST be HSL.
 }
 
 ::-webkit-scrollbar-track {
-  background: rgba(17, 24, 39, 0.5);
+  background: rgba(0, 0, 0, 0.8);
 }
 
 ::-webkit-scrollbar-thumb {
@@ -117,9 +117,9 @@ html.has-scroll-dragging {
 
 /* Glassmorphism effect */
 .glass {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 /* Glow effects */
