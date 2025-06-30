@@ -31,22 +31,6 @@ const Navbar = () => {
     }
   };
 
-  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
-    e.preventDefault();
-    const element = document.querySelector(href);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-    if (isOpen) {
-      setIsOpen(false);
-      gsap.to('.mobile-menu', {
-        x: '100%',
-        duration: 0.5,
-        ease: 'power2.out'
-      });
-    }
-  };
-
   return (
     <>
       <nav className="navbar fixed top-0 left-0 right-0 z-50 p-6 bg-gray-900/95 backdrop-blur-md border-b border-gray-800/20">
@@ -67,8 +51,7 @@ const Navbar = () => {
               <a
                 key={item.name}
                 href={item.href}
-                onClick={(e) => handleNavClick(e, item.href)}
-                className="text-gray-300 hover:text-white transition-colors duration-300 relative group cursor-pointer"
+                className="text-gray-300 hover:text-white transition-colors duration-300 relative group"
               >
                 {item.name}
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-cyan-400 to-purple-400 group-hover:w-full transition-all duration-300"></span>
@@ -97,8 +80,8 @@ const Navbar = () => {
             <a
               key={item.name}
               href={item.href}
-              onClick={(e) => handleNavClick(e, item.href)}
-              className="text-2xl text-white hover:text-cyan-400 transition-colors duration-300 cursor-pointer"
+              onClick={toggleMenu}
+              className="text-2xl text-white hover:text-cyan-400 transition-colors duration-300"
             >
               {item.name}
             </a>
