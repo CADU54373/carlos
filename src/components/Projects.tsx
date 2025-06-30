@@ -1,3 +1,4 @@
+
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -33,55 +34,28 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'Site Portfólio 3D',
-      description: 'Portfólio interativo 3D com animações impressionantes e transições suaves.',
+      title: 'Sistema Power Apps',
+      description: 'Aplicação desenvolvida com Power Apps para automatização de processos empresariais e gestão de dados.',
       image: '/lovable-uploads/29f0f772-8041-43e9-9366-70250f7b6cdd.png',
-      tags: ['React', 'Three.js', 'GSAP'],
+      tags: ['Power Apps', 'Power Automate', 'SharePoint'],
       link: '#',
       github: '#'
     },
     {
       id: 2,
-      title: 'Site de Jogos',
-      description: 'Plataforma de jogos moderna com interface imersiva e conteúdo dinâmico.',
-      image: '/lovable-uploads/50b2a633-74bf-4388-9e8c-064c1a227ff1.png',
-      tags: ['React', 'TypeScript', 'Tailwind'],
+      title: 'Portfólio Pessoal',
+      description: 'Portfólio moderno e interativo desenvolvido com React, TypeScript e animações GSAP.',
+      image: '/lovable-uploads/940a9794-11e2-41b2-9f01-a702d96f9e03.png',
+      tags: ['React', 'TypeScript', 'GSAP'],
       link: '#',
       github: '#'
     },
     {
       id: 3,
-      title: 'Ferramentas de Animação',
-      description: 'Ferramentas de animação web com pré-visualização em tempo real e controles interativos.',
-      image: '/lovable-uploads/fce13963-48f8-4661-ae0e-e0bdc272b0a8.png',
-      tags: ['React', 'GSAP', 'Canvas'],
-      link: '#',
-      github: '#'
-    },
-    {
-      id: 4,
-      title: 'Portfólio Desenvolvedor',
-      description: 'Portfólio limpo e moderno com animações suaves e design responsivo.',
-      image: '/lovable-uploads/940a9794-11e2-41b2-9f01-a702d96f9e03.png',
-      tags: ['React', 'Next.js', 'Framer Motion'],
-      link: '#',
-      github: '#'
-    },
-    {
-      id: 5,
-      title: 'App Web Interativo',
-      description: 'Aplicação web rica em recursos com interface moderna e interações perfeitas.',
+      title: 'Dashboard Power BI',
+      description: 'Dashboard analítico integrado com banco de dados para visualização de KPIs e relatórios gerenciais.',
       image: '/lovable-uploads/e6b5afd9-6400-426d-84de-176b77d1b470.png',
-      tags: ['React', 'Node.js', 'MongoDB'],
-      link: '#',
-      github: '#'
-    },
-    {
-      id: 6,
-      title: 'Interface de Jogos 3D',
-      description: 'Interface de jogos de próximo nível com elementos 3D e efeitos visuais impressionantes.',
-      image: '/lovable-uploads/e550fa8a-5895-4ca4-a2fa-be497e6f0272.png',
-      tags: ['React', 'Three.js', 'WebGL'],
+      tags: ['Power BI', 'SQL Server', 'ETL'],
       link: '#',
       github: '#'
     }
