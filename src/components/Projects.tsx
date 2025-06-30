@@ -33,28 +33,28 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'Sistema de Gestão',
-      description: 'Plataforma completa para gerenciamento de inventário e vendas com dashboard analytics.',
-      image: '/lovable-uploads/e550fa8a-5895-4ca4-a2fa-be497e6f0272.png',
-      tags: ['React', 'Node.js', 'MongoDB'],
+      title: 'Sistema Power Apps',
+      description: 'Plataforma completa para gerenciamento de logística e inventário com integração de dados em tempo real.',
+      image: '/lovable-uploads/c59b72a6-0b1f-49b3-b9ea-db82fccb44c5.png',
+      tags: ['Power Apps', 'Power Automate', 'SharePoint'],
       liveUrl: '#',
       githubUrl: '#'
     },
     {
       id: 2,
-      title: 'App de Delivery',
-      description: 'Aplicação mobile-first para pedidos online com integração de pagamento e rastreamento.',
-      image: '/lovable-uploads/50b2a633-74bf-4388-9e8c-064c1a227ff1.png',
-      tags: ['React Native', 'Firebase', 'Stripe'],
+      title: 'Portfólio Pessoal',
+      description: 'Portfólio moderno e interativo desenvolvido com React, TypeScript e animações GSAP.',
+      image: '/lovable-uploads/e5630019-88af-478c-9a4d-2165ae4351aa.png',
+      tags: ['React', 'TypeScript', 'GSAP'],
       liveUrl: '#',
       githubUrl: '#'
     },
     {
       id: 3,
-      title: 'Portfólio Pessoal',
-      description: 'Portfólio moderno e interativo desenvolvido com React, TypeScript e animações GSAP built with Spline.',
-      image: '/lovable-uploads/2da575b5-d8ec-470b-b44e-669c03646b71.png',
-      tags: ['React', 'TypeScript', 'GSAP'],
+      title: 'Dashboard Power BI',
+      description: 'Dashboard interativo para análise de dados com visualizações avançadas e métricas de performance.',
+      image: '/lovable-uploads/817cfd1e-98c1-4c98-bf0b-da666774604b.png',
+      tags: ['Power BI', 'DAX', 'SQL'],
       liveUrl: '#',
       githubUrl: '#'
     }
