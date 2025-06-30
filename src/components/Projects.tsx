@@ -1,4 +1,3 @@
-
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -52,9 +51,9 @@ const Projects = () => {
     {
       id: 3,
       title: 'Portfólio Pessoal',
-      description: 'Portfólio moderno e interativo desenvolvido com HTML, CSS e TypeScript.',
+      description: 'Portfólio moderno e interativo desenvolvido com React, TypeScript e animações GSAP built with Spline.',
       image: '/lovable-uploads/2da575b5-d8ec-470b-b44e-669c03646b71.png',
-      tags: ['HTML', 'CSS', 'TypeScript'],
+      tags: ['React', 'TypeScript', 'GSAP'],
       liveUrl: '#',
       githubUrl: '#'
     },
