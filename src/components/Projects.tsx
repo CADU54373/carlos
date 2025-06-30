@@ -36,7 +36,7 @@ const Projects = () => {
       id: 1,
       title: 'Sistema Power Apps',
       description: 'Aplicação desenvolvida com Power Apps para automatização de processos empresariais e gestão de dados.',
-      image: '/lovable-uploads/29f0f772-8041-43e9-9366-70250f7b6cdd.png',
+      image: '/lovable-uploads/2da575b5-d8ec-470b-b44e-669c03646b71.png',
       tags: ['Power Apps', 'Power Automate', 'SharePoint'],
       link: '#',
       github: '#'
@@ -45,7 +45,7 @@ const Projects = () => {
       id: 2,
       title: 'Portfólio Pessoal',
       description: 'Portfólio moderno e interativo desenvolvido com React, TypeScript e animações GSAP.',
-      image: '/lovable-uploads/940a9794-11e2-41b2-9f01-a702d96f9e03.png',
+      image: '/lovable-uploads/eacf245c-893d-40d9-9de2-6cd5098b3ded.png',
       tags: ['React', 'TypeScript', 'GSAP'],
       link: '#',
       github: '#'
@@ -54,7 +54,7 @@ const Projects = () => {
       id: 3,
       title: 'Dashboard Power BI',
       description: 'Dashboard analítico integrado com banco de dados para visualização de KPIs e relatórios gerenciais.',
-      image: '/lovable-uploads/e6b5afd9-6400-426d-84de-176b77d1b470.png',
+      image: '/lovable-uploads/e1f66a01-b4a3-49a8-aa07-8db1de81959e.png',
       tags: ['Power BI', 'SQL Server', 'ETL'],
       link: '#',
       github: '#'
