@@ -33,7 +33,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="navbar fixed top-0 left-0 right-0 z-50 p-6 bg-gray-900/95 backdrop-blur-md border-b border-gray-800/20">
+      <nav className="navbar fixed top-0 left-0 right-0 z-50 p-6">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="text-2xl font-bold text-white">
             <span className="bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
