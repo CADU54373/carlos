@@ -42,7 +42,7 @@ const Preloader = () => {
       ref={preloaderRef}
       className="fixed inset-0 z-50 bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 flex items-center justify-center"
     >
-      <div className="text-center">
+      <div className="text-center flex flex-col items-center">
         <div
           ref={logoRef}
           className="text-6xl font-bold text-white mb-8 relative"
@@ -55,7 +55,7 @@ const Preloader = () => {
           </div>
         </div>
         
-        <div className="w-64 h-1 bg-gray-800 rounded-full overflow-hidden">
+        <div className="w-64 h-1 bg-gray-800 rounded-full overflow-hidden mx-auto">
           <div
             ref={progressBarRef}
             className="h-full bg-gradient-to-r from-cyan-400 to-purple-400 rounded-full w-0 shadow-lg shadow-cyan-400/50"
