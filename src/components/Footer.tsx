@@ -93,9 +93,7 @@ const Footer = () => {
         </div>
         
         <div className="mt-8 pt-8 border-t border-gray-800/50 text-center">
-          <p className="text-gray-500">
-            © 2024 Carlos Eduardo. Todos os direitos reservados.  e muito ☕
-          </p>
+          
         </div>
       </div>
     </footer>
