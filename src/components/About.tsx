@@ -1,4 +1,3 @@
-
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -76,7 +75,7 @@ const About = () => {
     { icon: Code, name: 'Frontend', color: 'from-blue-400 to-cyan-400' },
     { icon: Palette, name: 'Design', color: 'from-purple-400 to-pink-400' },
     { icon: Rocket, name: 'Performance', color: 'from-green-400 to-teal-400' },
-    { icon: Lightbulb, name: 'Innovation', color: 'from-yellow-400 to-orange-400' },
+    { icon: Lightbulb, name: 'Inovação', color: 'from-yellow-400 to-orange-400' },
   ];
 
   return (
@@ -105,22 +104,22 @@ const About = () => {
           {/* Content */}
           <div ref={contentRef} className="space-y-6">
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-              About{' '}
+              Sobre{' '}
               <span className="bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
-                Me
+                Mim
               </span>
             </h2>
             
             <div className="space-y-4 text-gray-300 text-lg leading-relaxed">
               <p>
-                Hi there! I'm Milad, a passionate frontend developer with expertise in modern web technologies. 
-                I specialize in creating beautiful, responsive, and high-performance web applications that deliver 
-                exceptional user experiences.
+                Olá! Eu sou Milad, um desenvolvedor frontend apaixonado com expertise em tecnologias web modernas. 
+                Eu me especializo em criar aplicações web bonitas, responsivas e de alta performance que entregam 
+                experiências excepcionais ao usuário.
               </p>
               
               <p>
-                With a keen eye for design and a deep understanding of user behavior, I transform ideas into 
-                digital realities that not only look stunning but also perform flawlessly across all devices and platforms.
+                Com um olhar apurado para design e um profundo entendimento do comportamento do usuário, eu transformo ideias em 
+                realidades digitais que não apenas parecem impressionantes, mas também funcionam perfeitamente em todos os dispositivos e plataformas.
               </p>
             </div>
 

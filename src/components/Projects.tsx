@@ -1,4 +1,3 @@
-
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -34,8 +33,8 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: '3D Portfolio Website',
-      description: 'Interactive 3D portfolio with stunning animations and smooth transitions.',
+      title: 'Site Portfólio 3D',
+      description: 'Portfólio interativo 3D com animações impressionantes e transições suaves.',
       image: '/lovable-uploads/29f0f772-8041-43e9-9366-70250f7b6cdd.png',
       tags: ['React', 'Three.js', 'GSAP'],
       link: '#',
@@ -43,8 +42,8 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: 'Gaming Website',
-      description: 'Modern gaming platform with immersive UI and dynamic content.',
+      title: 'Site de Jogos',
+      description: 'Plataforma de jogos moderna com interface imersiva e conteúdo dinâmico.',
       image: '/lovable-uploads/50b2a633-74bf-4388-9e8c-064c1a227ff1.png',
       tags: ['React', 'TypeScript', 'Tailwind'],
       link: '#',
@@ -52,8 +51,8 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: 'Animation Tools',
-      description: 'Web animation tools with real-time preview and interactive controls.',
+      title: 'Ferramentas de Animação',
+      description: 'Ferramentas de animação web com pré-visualização em tempo real e controles interativos.',
       image: '/lovable-uploads/fce13963-48f8-4661-ae0e-e0bdc272b0a8.png',
       tags: ['React', 'GSAP', 'Canvas'],
       link: '#',
@@ -61,8 +60,8 @@ const Projects = () => {
     },
     {
       id: 4,
-      title: 'Developer Portfolio',
-      description: 'Clean and modern portfolio with smooth animations and responsive design.',
+      title: 'Portfólio Desenvolvedor',
+      description: 'Portfólio limpo e moderno com animações suaves e design responsivo.',
       image: '/lovable-uploads/940a9794-11e2-41b2-9f01-a702d96f9e03.png',
       tags: ['React', 'Next.js', 'Framer Motion'],
       link: '#',
@@ -70,8 +69,8 @@ const Projects = () => {
     },
     {
       id: 5,
-      title: 'Interactive Web App',
-      description: 'Feature-rich web application with modern UI/UX and seamless interactions.',
+      title: 'App Web Interativo',
+      description: 'Aplicação web rica em recursos com interface moderna e interações perfeitas.',
       image: '/lovable-uploads/e6b5afd9-6400-426d-84de-176b77d1b470.png',
       tags: ['React', 'Node.js', 'MongoDB'],
       link: '#',
@@ -79,8 +78,8 @@ const Projects = () => {
     },
     {
       id: 6,
-      title: '3D Gaming Interface',
-      description: 'Next-level gaming UI with 3D elements and stunning visual effects.',
+      title: 'Interface de Jogos 3D',
+      description: 'Interface de jogos de próximo nível com elementos 3D e efeitos visuais impressionantes.',
       image: '/lovable-uploads/e550fa8a-5895-4ca4-a2fa-be497e6f0272.png',
       tags: ['React', 'Three.js', 'WebGL'],
       link: '#',
@@ -98,13 +97,13 @@ const Projects = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            My{' '}
+            Meus{' '}
             <span className="bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
-              Projects
+              Projetos
             </span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Discover some of my recent work and creative projects that showcase my skills and passion for web development.
+            Descubra alguns dos meus trabalhos recentes e projetos criativos que mostram minhas habilidades e paixão pelo desenvolvimento web.
           </p>
         </div>
 
@@ -151,14 +150,14 @@ const Projects = () => {
                     className="flex items-center gap-2 text-cyan-400 hover:text-white transition-colors text-sm"
                   >
                     <ArrowUpRight size={16} />
-                    Live Demo
+                    Ver Demo
                   </a>
                   <a
                     href={project.github}
                     className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors text-sm"
                   >
                     <GithubLogo size={16} />
-                    Code
+                    Código
                   </a>
                 </div>
               </div>

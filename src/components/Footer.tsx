@@ -1,4 +1,3 @@
-
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -39,34 +38,34 @@ const Footer = () => {
               </span>
             </h3>
             <p className="text-gray-400">
-              Crafting digital experiences with passion and precision.
+              Criando experiências digitais com paixão e precisão.
             </p>
           </div>
           
           <div className="flex items-center gap-6">
             <a
-              href="#"
+              href="#home"
               className="text-gray-400 hover:text-white transition-colors"
             >
-              Home
+              Início
             </a>
             <a
-              href="#"
+              href="#about"
               className="text-gray-400 hover:text-white transition-colors"
             >
-              About
+              Sobre
             </a>
             <a
-              href="#"
+              href="#projects"
               className="text-gray-400 hover:text-white transition-colors"
             >
-              Projects
+              Projetos
             </a>
             <a
-              href="#"
+              href="#contact"
               className="text-gray-400 hover:text-white transition-colors"
             >
-              Contact
+              Contato
             </a>
           </div>
           
@@ -94,7 +93,7 @@ const Footer = () => {
         
         <div className="mt-8 pt-8 border-t border-gray-800/50 text-center">
           <p className="text-gray-500">
-            © 2024 Milad Code. All rights reserved. Built with ❤️ and lots of ☕
+            © 2024 Milad Code. Todos os direitos reservados. Feito com ❤️ e muito ☕
           </p>
         </div>
       </div>

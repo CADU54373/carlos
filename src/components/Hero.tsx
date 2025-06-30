@@ -1,4 +1,3 @@
-
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 
@@ -83,13 +82,13 @@ const Hero = () => {
           className="mb-6"
         >
           <h1 className="text-4xl md:text-7xl font-bold text-white leading-tight">
-            Hi, I'm{' '}
+            Olá, eu sou{' '}
             <span className="bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
               Milad
             </span>
           </h1>
           <h2 className="text-2xl md:text-4xl font-light text-gray-300 mt-2">
-            Web Developer
+            Desenvolvedor Web
           </h2>
         </div>
 
@@ -97,14 +96,14 @@ const Hero = () => {
           ref={subtitleRef}
           className="text-lg md:text-xl text-gray-400 mb-8 max-w-2xl mx-auto"
         >
-          Crafting digital experiences that inspire and engage through innovative design and cutting-edge technology.
+          Criando experiências digitais que inspiram e envolvem através de design inovador e tecnologia de ponta.
         </p>
 
         <button
           ref={ctaRef}
           className="bg-gradient-to-r from-cyan-500 to-purple-500 text-white px-8 py-4 rounded-full font-semibold text-lg shadow-2xl shadow-cyan-500/25 hover:shadow-cyan-500/50 transition-all duration-300"
         >
-          Hire Me
+          Contratar
         </button>
       </div>
     </section>

@@ -1,4 +1,3 @@
-
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 
@@ -62,7 +61,7 @@ const Preloader = () => {
           />
         </div>
         
-        <p className="text-gray-300 mt-4 text-sm">Loading experience...</p>
+        <p className="text-gray-300 mt-4 text-sm">Carregando experiência...</p>
       </div>
     </div>
   );

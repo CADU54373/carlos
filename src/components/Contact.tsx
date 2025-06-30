@@ -1,4 +1,3 @@
-
 import { useEffect, useRef, useState } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -66,13 +65,13 @@ const Contact = () => {
       <div className="max-w-4xl mx-auto w-full">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Get In{' '}
+            Entre em{' '}
             <span className="bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
-              Touch
+              Contato
             </span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Have a project in mind or just want to say hello? Drop me a message and let's create something amazing together.
+            Tem um projeto em mente ou só quer dizer olá? Me mande uma mensagem e vamos criar algo incrível juntos.
           </p>
         </div>
 
@@ -87,7 +86,7 @@ const Contact = () => {
               <input
                 type="text"
                 name="name"
-                placeholder="Your Name"
+                placeholder="Seu Nome"
                 value={formData.name}
                 onChange={handleInputChange}
                 required
@@ -99,7 +98,7 @@ const Contact = () => {
               <input
                 type="email"
                 name="email"
-                placeholder="Your Email"
+                placeholder="Seu Email"
                 value={formData.email}
                 onChange={handleInputChange}
                 required
@@ -110,7 +109,7 @@ const Contact = () => {
             <div>
               <textarea
                 name="message"
-                placeholder="Your Message"
+                placeholder="Sua Mensagem"
                 value={formData.message}
                 onChange={handleInputChange}
                 required
@@ -124,7 +123,7 @@ const Contact = () => {
               className="w-full bg-gradient-to-r from-cyan-500 to-purple-500 text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-2xl shadow-cyan-500/25 hover:shadow-cyan-500/50 transition-all duration-300 flex items-center justify-center gap-2 hover:scale-105"
             >
               <PaperPlaneRight size={20} />
-              Send Message
+              Enviar Mensagem
             </button>
           </form>
 
@@ -143,7 +142,7 @@ const Contact = () => {
             </div>
 
             <div className="space-y-4">
-              <h3 className="text-white font-semibold text-lg">Connect with me</h3>
+              <h3 className="text-white font-semibold text-lg">Conecte-se comigo</h3>
               <div className="flex gap-4">
                 <a
                   href="#"
