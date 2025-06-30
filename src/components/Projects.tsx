@@ -2,7 +2,6 @@
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { ArrowUpRight, GithubLogo } from 'phosphor-react';
 
 const Projects = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -37,27 +36,21 @@ const Projects = () => {
       title: 'Sistema Power Apps',
       description: 'Aplicação desenvolvida com Power Apps para automatização de processos empresariais e gestão de dados.',
       image: '/lovable-uploads/2da575b5-d8ec-470b-b44e-669c03646b71.png',
-      tags: ['Power Apps', 'Power Automate', 'SharePoint'],
-      link: '#',
-      github: '#'
+      tags: ['Power Apps', 'Power Automate', 'SharePoint']
     },
     {
       id: 2,
       title: 'Portfólio Pessoal',
       description: 'Portfólio moderno e interativo desenvolvido com React, TypeScript e animações GSAP.',
       image: '/lovable-uploads/eacf245c-893d-40d9-9de2-6cd5098b3ded.png',
-      tags: ['React', 'TypeScript', 'GSAP'],
-      link: '#',
-      github: '#'
+      tags: ['HTML', 'TypeScript', 'CSS']
     },
     {
       id: 3,
       title: 'Dashboard Power BI',
       description: 'Dashboard analítico integrado com banco de dados para visualização de KPIs e relatórios gerenciais.',
       image: '/lovable-uploads/e1f66a01-b4a3-49a8-aa07-8db1de81959e.png',
-      tags: ['Power BI', 'SQL Server', 'ETL'],
-      link: '#',
-      github: '#'
+      tags: ['Power BI', 'SQL Server', 'ETL']
     }
   ];
 
@@ -107,7 +100,7 @@ const Projects = () => {
                   {project.description}
                 </p>
                 
-                <div className="flex flex-wrap gap-2 mb-4">
+                <div className="flex flex-wrap gap-2">
                   {project.tags.map((tag) => (
                     <span
                       key={tag}
@@ -116,23 +109,6 @@ const Projects = () => {
                       {tag}
                     </span>
                   ))}
-                </div>
-                
-                <div className="flex items-center gap-4">
-                  <a
-                    href={project.link}
-                    className="flex items-center gap-2 text-cyan-400 hover:text-white transition-colors text-sm"
-                  >
-                    <ArrowUpRight size={16} />
-                    Ver Demo
-                  </a>
-                  <a
-                    href={project.github}
-                    className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors text-sm"
-                  >
-                    <GithubLogo size={16} />
-                    Código
-                  </a>
                 </div>
               </div>
             </div>

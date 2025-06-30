@@ -3,10 +3,12 @@ import { useEffect, useRef, useState } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { PaperPlaneRight, LinkedinLogo, EnvelopeSimple } from 'phosphor-react';
+import { useToast } from "@/hooks/use-toast";
 
 const Contact = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
   const formRef = useRef<HTMLFormElement>(null);
+  const { toast } = useToast();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -50,8 +52,29 @@ const Contact = () => {
       repeat: 1,
       ease: 'power2.out'
     });
+
+    // Create mailto link
+    const subject = encodeURIComponent(`Contato de ${formData.name}`);
+    const body = encodeURIComponent(`Nome: ${formData.name}\nEmail: ${formData.email}\n\nMensagem:\n${formData.message}`);
+    const mailtoLink = `mailto:carlosedduardo239@gmail.com?subject=${subject}&body=${body}`;
+    
+    // Open email client
+    window.location.href = mailtoLink;
+    
+    // Reset form
+    setFormData({
+      name: '',
+      email: '',
+      message: ''
+    });
+
+    // Show success toast
+    toast({
+      title: "Mensagem enviada!",
+      description: "Seu cliente de email foi aberto com a mensagem preenchida.",
+    });
+
     console.log('Form submitted:', formData);
-    // Handle form submission here
   };
 
   return (
